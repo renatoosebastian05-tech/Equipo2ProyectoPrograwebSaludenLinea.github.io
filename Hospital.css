@@ -1,0 +1,104 @@
+/* Fondo general */
+body {
+  background: #f2f6f9; /* tono claro más suave que el amarillo */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #2a6ebd; /* azul médico */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Imagen principal */
+.cambio {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px; /* bordes redondeados */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+.hero {
+  padding: 20px;
+}
+
+.frase {
+  font-size: 20px;
+  font-style: italic;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Caja con borde para la info del hospital */
+.caja-con-borde {
+  border: 2px solid #2a6ebd;
+  border-radius: 12px;
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.caja-con-borde h2 {
+  color: #2a6ebd;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* Contacto */
+.contacto {
+  background: #eaf4fc;
+  border-left: 5px solid #2a6ebd;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+}
+
+.contacto h3 {
+  margin-top: 0;
+  color: #2a6ebd;
+}
+
+/* Enlaces (botones estilo menú) */
+a {
+  font-size: 18px;
+  margin: 10px;
+  text-align: center;
+  background-color: #2a6ebd;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a:hover {
+  background-color: #1d4e85;
+}
+
+/* Pie de página */
+footer {
+  background: #2a6ebd;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
